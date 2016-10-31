@@ -1,4 +1,32 @@
+#mine-box{width: 100%;height: 100%;position: relative;}
+#mine-box>div{position: absolute;}
+#mine-wrap1{width: 100%;height: 32.1rem;background: white;}
 .mine-bg{width: 100%;height: 7rem;background: url(../../img/icon_bg.png) no-repeat;background-size:100%;position: relative;}
 .mine-bg p{position: absolute;bottom: -15%;left: 40%;background: url(../../img/logo.png) no-repeat;background-size: 100%;width: 18%;height: 53%;}
-#tel{width: 80%;height: 5%;border: none;border-bottom: 2px solid rgb(217,217,217);position: absolute;left: 10%;top: 28%;font-size: 16px;outline: medium;}
-#password{width: 80%;height: 5%;border: none;border-bottom: 1px solid rgb(217,217,217);position: absolute;left: 10%;top: 36%;font-size: 16px;outline: medium;}
+#tel{width: 80%;height: 5%;border: none;border-bottom: 2px solid rgb(217,217,217);margin-left: 10%;margin-top: 10%;font-size: 16px;outline: medium;}
+#password{width: 80%;height: 5%;border: none;border-bottom: 1px solid rgb(217,217,217);margin-left: 10%;margin-top: 10%;font-size: 16px;outline: medium;}
+#mine-link{width: 100%;height: 2.5rem;margin-left: 70%;margin-bottom: 8%;}
+#mine-link a{color: rgb(170,170,170);font-size: 13px;width: 100%;height: 100%;}
+#login{width: 78%;margin-left: 10%;background: rgb(254,51,85);text-align: center;height: 2.5rem;line-height: 2.5rem;}
+#login #logins{color: #FFFFFF;font-size: 16px;display: inline-block;}
+#createNum{width: 100%;height: 2.5rem;text-align: center;color: rgb(123,123,123);font-size: 16px;line-height: 2.5rem;}
+#mine-wrap2{width: 100%;height: 32.1rem;background: rgb(233,233,233);display: none;}
+#mineWrap-head{width: 100%;height: 8rem;background: url(../../img/user_bg.jpg) no-repeat;background-size: 100%;}
+#news{width: 10%;height: 20%;float: right;background: url(../../img/news.png) no-repeat;background-size: 100%;z-index: 3;margin-top: 2%;margin-right: 5%;}
+#mine-circle{width: 20%;height: 35%;margin-top: 5%;margin-left: 40%;text-align: center;}
+#mine-circle div{width: 100%;height: 112%;border-radius: 50%;border: 1px solid #FFFFFF;margin-left: 18%;text-align: center;background: white;}
+#mine-circle div img{width: 100%;height:100%;border-radius: 50%;}
+#mine-circle p{color: #FFFFFF;font-size: 16px;}
+#mine-nav{width: 100%;height: 15%;background: white;padding: 2%;margin-bottom: 3%;}
+#mine-nav ul li{float: left;width: 33.333%;height: 100%;padding: 3%;text-align: center;}
+#mine-nav ul li p{color: rgb(189,189,189);font-size: 14px;}
+#mine-nav img{width: 50%;height: 80%;}
+#mine-nav1{width: 100%;height: 20%;background: white;padding: 2%;margin-bottom: 3%;}
+#mine-nav1 h4{height: 1.5rem;font-size: 14px;color: rgb(51,51,51);margin-bottom: 5%;border-bottom: 1px solid rgb(241,241,241);}
+#mine-nav1 #mine-nav1List li{float: left;width: 20%;height: 100%;padding: 1%;text-align: center;}
+#mine-nav1 #mine-nav1List li p{color: rgb(189,189,189);font-size: 12px;}
+#mine-nav1 #mine-nav1List img{width: 40%;height: 60%;}
+#mine-nav2{width: 100%;height: 20%;background: white;}
+#mine-nav2 ul{width: 100%;height: 100%;}
+#mine-nav2 ul li{width: 100%;height: 33.3333%;border: 1px solid rgb(241,241,241);padding: 2%;font-size: 13px;color: rgb(51,51,51);line-height: 230%;}
+
