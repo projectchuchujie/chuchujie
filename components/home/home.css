@@ -1,0 +1,16 @@
+#homeul{
+	width: 100%;
+	list-style: none;
+	font-size: 0.7rem;
+}
+#homeul li{
+	padding:0.5rem 0.5rem 0 0.5rem;
+	border-bottom: 1px solid rgb(247,247,247);
+}
+#homeul li img{
+	width: 100%;
+}
+#homeul li p{
+	height: 2rem;
+	line-height: 2rem;
+}

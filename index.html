@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <title>楚楚街</title>
+    	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    	<style type="text/css">
+        	*{
+				box-sizing: border-box;
+			}
+			
+			html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
+				margin: 0;
+				padding: 0;
+			}
+			
+			fieldset,img {
+				border: none;
+			}
+			
+			address,caption,cite,code,dfn,th,var {
+				font-style: normal;
+				font-weight: normal;
+			}
+			
+			ul,ol,li {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			.clearfix:after{
+				content: ".";
+				clear: both;
+				display: block;
+				height: 0;
+				visibility: hidden;
+			}
+        	html,body{
+        		width:100%;
+        		font-size: 20px;
+        		font-family: "微软雅黑";
+        	}
+        	#indexul{
+        		background: white;
+        		width:100%;
+        		height:2.6rem;
+        		position: fixed;
+        		bottom: 0;
+        		left: 0;
+        	}
+        	#indexul li{
+        		float: left;width: 25%;
+        		text-align: center;
+        		padding-top: 0.2rem;
+        	}
+        	#indexul li a{
+        		font-size: 0.6rem;
+        		color: rgb(141,141,141);
+        	}
+        	#indexul li a i{
+        		font-size: 1rem;
+        	}
+        	#indexul .indexli a{
+        		color: rgb(235,0,70);
+        	}
+        </style>
+    </head>
+    <body ng-app='ccj'>
+        <ul id="indexul">
+            <li class="indexli"><a href="#/home"><i class="fa fa-globe"></i><p>首页</p></a></li>
+            <li><a href="#/nine"><i class="fa fa-tags"></i><p>9块9</p></a></li>
+            <li><a href="#/classify"><i class="fa fa-qrcode"></i><p>分类</p></a></li>
+            <li><a href="#/mine"><i class="fa fa-smile-o"></i><p>我的</p></a></li>
+        </ul>
+         
+        <div ng-view></div>
+        <script src="js/libs2/angular.min.js"></script>
+        <script src="js/libs2/angular-route.js"></script>
+        <script src="js/libs2/angular-css.min.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/home/home.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/mine/mine.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/classify/classify.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/nine/nine.js" type="text/javascript" charset="utf-8"></script>
+</html>
+
