@@ -11,7 +11,7 @@
 			<p id="des">{{x.title}}</p>
 			<span id="price">￥{{x.newPrice}}</span>
 			<div class="clearfix"></div>
-			<span id="add" ng-click="ifh()">-</span><span id="num">{{count}}</span><span id="decrese" ng-click="add()">+</span>
+			<span id="add" ng-click="ifh($index)">-</span><span class="num">1</span><span id="decrese" ng-click="add($index)">+</span>
 		</div>
 	</div>
 </div>

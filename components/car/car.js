@@ -20,18 +20,18 @@ app.controller("carCtrl",["$scope","carService",function($scope,carService){
 	})
 	
 	$scope.count=1;
-	$scope.ifh=function(){
-		$scope.count=$("#num").text();
+	$scope.ifh=function(index){
+		$scope.count=$(".num").eq(index).text();
 		$scope.count=$scope.count-1;
 		console.log($scope.count)
 		if($scope.count<=0){
 			$scope.count=1;
 		}
-		$("#num").text($scope.count);
+		$(".num").eq(index).text($scope.count);
 	}
-	$scope.add=function(){
-		$scope.count=$("#num").text();
+	$scope.add=function(index){
+		$scope.count=$(".num").eq(index).text();
 		$scope.count=$scope.count*1+1;
-		$("#num").text($scope.count);
+		$(".num").eq(index).text($scope.count);
 	}
 }])
