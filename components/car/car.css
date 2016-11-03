@@ -1,0 +1,8 @@
+#carContent{width: 100%;height: 100%;}
+#carTitle{margin-bottom: 30%;}
+#carim{width: 50%;height: 100%;float: left;}
+#carim img{width: 100%;height: 80%;}
+#carTitle1{float: right;width: 50%;height: 100%;padding: 3% 0 0 3%;}
+#des{width: 100%;color: black;font-size: 0.8rem;float: left;}
+#price{color: lightcoral;float: left;margin-left: 5%;}
+#add,#decrese,#num{width: 20%;height: 8%;display: inline-block;border: 1px solid #cccccc;color: lightslategray;margin-top: 10%;text-align: center;font-size: 1rem;}

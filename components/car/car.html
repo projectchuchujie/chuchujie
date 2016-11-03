@@ -1,0 +1,17 @@
+<div id="carContent">
+	<div class="clearfix">
+		
+	</div>
+	<div ng-repeat="x in cararr" id="carTitle">		
+		<div class="clearfix">
+			
+		</div>
+		<div id="carim"> <img ng-src="{{x.imgUrl}}" /></div>
+		<div id="carTitle1">
+			<p id="des">{{x.title}}</p>
+			<span id="price">￥{{x.newPrice}}</span>
+			<div class="clearfix"></div>
+			<span id="add" ng-click="ifh()">-</span><span id="num">{{count}}</span><span id="decrese" ng-click="add()">+</span>
+		</div>
+	</div>
+</div>
