@@ -1,1 +1,34 @@
-<h1>nine</h1>
+<div id="ninehead">
+	<a href="#/search"><i id="i1"></i></a>
+	<span id="s1" ng-click="click(0)">男生精选</span><span class="hspan" id="s2" ng-click="click(1)">女生精选</span>
+	<a href="#/car"><i id="i2"></i></a>
+</div>
+<div class="d1"></div>
+<p id="gg">{{ninearr.startInfo.infoList[0]}}</p>
+<ul id="nineul">
+	<li ng-repeat='x in ninearr.dataList' ng-click='nine(x)'>
+		<dl>
+			<dt><img lazy-src="{{x.imgUrl}}"/></dt>
+			<dd>
+				<p ng-if='x.title'><span>今日</span>{{x.title}}</p>
+				<p>￥<span>{{x.newPrice}}</span></p>
+				<p>原价：<span>￥{{x.oldPrice}}</span><span>{{x.saleCount}}人已买</span></p>
+				
+			</dd>
+		</dl>
+		<!--ng-hide='flag'-->
+	</li>
+</ul>
+<div id="ninedetail" ng-hide='flag'>
+	<img />
+	<div>
+		<p></p>
+		<p></p>
+		<p></p>
+		<div class="clearfix"></div>
+		<p></p>
+	</div>
+	<div id="tab"><span>客服</span><span>加入购物车</span><span>立即购买</span></div>
+	<a href="#/home"></a>
+	<a href="#/car"></a>
+</div>

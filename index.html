@@ -5,7 +5,7 @@
         <title>楚楚街</title>
     	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-    	<style type="text/css">
+    	   	<style type="text/css">
         	*{
 				box-sizing: border-box;
 			}
@@ -43,8 +43,10 @@
         		width:100%;
         		font-size: 20px;
         		font-family: "微软雅黑";
+        		box-sizing: border-box;
         	}
         	#indexul{
+        		z-index: 2;
         		background: white;
         		width:100%;
         		height:2.6rem;
@@ -64,9 +66,6 @@
         	#indexul li a i{
         		font-size: 1rem;
         	}
-        	#indexul .indexli a{
-        		color: rgb(235,0,70);
-        	}
         </style>
     </head>
     <body ng-app='ccj'>
@@ -81,6 +80,7 @@
         <script src="js/libs2/angular.min.js"></script>
         <script src="js/libs2/angular-route.js"></script>
         <script src="js/libs2/angular-css.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/me-lazyload.js" type="text/javascript" charset="utf-8"></script>
     </body>
     <script src="js/libs2/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/libs2/zepto.js" type="text/javascript" charset="utf-8"></script>

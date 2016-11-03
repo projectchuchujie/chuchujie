@@ -1,1 +1,35 @@
-<h1>fenlei</h1>
+<div id="classifyhead">
+	<span id="s1" ng-click="click(0)">男生精选</span><span class="hspan" id="s2" ng-click="click(1)">女生精选</span>
+</div>
+<ul id="classifyul">
+	<li ng-repeat='x in classifyarr.categoryList'>
+		<dl>
+			<dt><img src="{{x.imgUrl}}"/></dt>
+			<dd>
+				<p ng-if='x.title'>{{x.title}}</p>
+				<p ng-if='x.subTitle'>{{x.subTitle}}</p>
+			</dd>
+		</dl>
+	</li>
+</ul>
+<div id="classifyd1">
+	<p></p>
+	<p></p>
+</div>
+<div id="classifylist">
+	<ul>
+		<li id="l1" ng-click='sel("collection")'><span class="a1">人气</span></li>
+		<li id="l2" ng-click='sel("saleCount")'><span>销量</span></li>
+		<li id="l3" ng-click='sel("sort")'><span>最新</span></li>
+		<li id="l4" ng-click='sel("newPrice")'><span>价格</span></li>
+	</ul>
+</div>
+<ul id="classifyul1">
+	<li ng-repeat='y in classifyarr.productList | orderBy:sort:desc'>
+		<img ng-if='y.imgUrl' lazy-src="{{y.imgUrl}}"/>
+		<p ng-if='y.title'><span>今日</span>{{y.title}}</p>
+		<p>￥<span>{{y.newPrice}}</span></p>
+		<p>原价：<span>￥{{y.oldPrice}}</span><span>{{y.saleCount}}人已买</span></p>
+	</li>
+</ul>
+<h1></h1>

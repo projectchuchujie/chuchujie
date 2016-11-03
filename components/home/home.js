@@ -9,13 +9,34 @@ app.config(['$routeProvider', function($routeProvider){
 }]);
 
 app.service("homeService",["$http",function($http){
-	this.get=function(){
+	this.getA=function(){
+		return $http.get('json/homewomen.json');
+	}
+	this.getB=function(){
 		return $http.get('json/homeman.json');
 	}
 }]);
 
 app.controller("homeCtrl",["$scope","homeService",function($scope,homeService){
-	homeService.get().success(function(res){
-		$scope.homearr=res.data.groupList[2].dataList;
+	homeService.getA().success(function(res){
+		$scope.homearr=res.data.groupList[2];
 	})
+	$scope.click=function(sex){
+		if(sex==1){
+			$('#homehead span').removeClass('hspan');
+			$('#s2').addClass('hspan');
+			homeService.getA().success(function(res){
+				$scope.homearr=res.data.groupList[2];
+			})
+		}else if(sex==0){
+			$('#homehead span').removeClass('hspan');
+			$('#s1').addClass('hspan');
+			homeService.getB().success(function(res){
+				$scope.homearr=res.data.groupList[2];
+			})
+		}
+	}
+	$scope.detail=function(path){
+		location.href=path;
+	}
 }])

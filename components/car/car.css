@@ -1,4 +1,4 @@
-#carContent{width: 100%;height: 100%;}
+#carContent{width: 100%;position: absolute;z-index: 100;background: white;}
 #carTitle{margin-bottom: 30%;}
 #carim{width: 50%;height: 100%;float: left;}
 #carim img{width: 100%;height: 80%;}

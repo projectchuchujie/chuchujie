@@ -1,7 +1,15 @@
+<div id="homehead">
+	<a href="#/search"><i id="i1"></i></a>
+	<span id="s1" ng-click="click(0)">男生精选</span><span class="hspan" id="s2" ng-click="click(1)">女生精选</span>
+	<a href="#/car"><i id="i2"></i></a>
+</div>
+<div class="d1"></div>
+<p id="gg">{{homearr.startInfo.infoList[0]}}</p>
 <ul id="homeul">
-	<li ng-repeat='x in homearr'>
-		<img src="{{x.imgUrl}}"/>
-		<p>{{x.title}}</p>
+	<li ng-repeat='x in homearr.dataList' ng-click='detail(x.shareUrl)'>
+		<img lazy-src="{{x.imgUrl}}"/>
+		<p ng-if='x.title'>{{x.title}}<span>今日上新</span></p>
+		<p ng-if='x.description'>{{x.description}}</p>
 	</li>
 </ul>
-<h1>home</h1>
+

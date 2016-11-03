@@ -1,0 +1,253 @@
+#indexul li:nth-child(2) a{
+	color: rgb(235,0,70);
+}
+#ninehead{
+	width: 100%;
+	height: 2rem;
+	z-index: 2;
+	background: white;
+	padding-top: 0.3rem;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#ninehead i{
+	/*margin-top: 0.3rem;*/
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 1rem;
+	color: rgb(99,99,99);
+}
+#ninehead #i1{
+	float: left;
+	margin-left: 1.2rem;
+	background: url(../../img/search.png) no-repeat left center;
+	background-size:70% 70% ;
+}
+#ninehead #i2{
+	float: right;
+	margin-right: 1.2rem;
+	background: url(../../img/car.png) no-repeat left center;
+	background-size:70% 70% ;
+}
+#ninehead span{
+	font-size: 0.6rem;
+	padding: 0.2rem 0.7rem;
+	border: 1px solid rgb(255,153,153);
+}
+#ninehead #s1{
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+}
+#ninehead #s2{
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+#ninehead .hspan{
+	background: rgb(255,153,153);
+	color: white;
+}
+.d1{
+	width: 100%;
+	height: 2rem;
+}
+#gg{
+	/*margin-top: 2rem;*/
+	width: 100%;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	margin-top: 0.5rem;
+	color: rgb(255,153,153);
+	font-size: 0.8rem;
+	text-indent: 2rem;
+	background:rgb(247,247,247) url(../../img/clock.png) no-repeat 0.5rem center;
+}
+#nineul{
+	width: 100%;
+	list-style: none;
+	font-size: 0.7rem;
+	margin-bottom: 9rem;
+}
+#nineul li{
+	clear: both;
+	padding:0.5rem 0.5rem 0 0.5rem;
+	border-bottom: 1px solid rgb(247,247,247);
+	
+}
+#nineul li dt img{
+	float: left;
+	width: 40%;
+	height: 5rem;
+}
+#nineul li dd{
+	width: 56%;
+	float: right;
+	position: relative;
+	/*height: 2rem;*/
+	line-height: 2rem;
+}
+#nineul li dd p{
+	width: 100%;
+	line-height: 1rem;
+	font-size: 0.7rem;
+	
+}
+#nineul li dd p:first-child{
+	margin-top: 0.3rem;
+}
+#nineul li dd p:first-child span{
+	border-radius: 0.2rem;
+	padding:0.05rem  0.1rem;
+	border: 1px solid rgb(255,153,153);
+	color: rgb(255,153,153);
+	font-size: 0.4rem;
+	margin-right: 0.4rem;
+	
+}
+#nineul li dd p:nth-child(2){
+	/*font-size:0.6rem ;*/
+	position: absolute;
+	left: 0;
+	top: 2.5rem;
+	color: rgb(233,49,48);
+}
+#nineul li dd p:nth-child(2) span{
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+#nineul li dd p:nth-child(3){
+	font-size: 0.6rem;
+	position: absolute;
+	left: 0;
+	top: 3.8rem;
+	color: rgb(176,176,176);
+}
+#nineul li dd p:nth-child(3) span:nth-last-child(2){
+	text-decoration: line-through;
+}
+#nineul li dd p:nth-child(3) span:last-child{
+	float: right;
+}
+h1{
+	height: 3rem;
+}
+#ninedetail{
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index:4;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#ninedetail img{
+	width: 100%;
+	height: 16rem;
+	margin-bottom: 0.5rem;
+}
+#ninedetail p{
+	line-height: 1rem;
+	font-size: 0.7rem;
+	
+}
+#ninedetail p:first-child{
+	color: rgb(233,51,85);
+	float: left;
+	width: 50%;
+	height: 1.8rem;
+	font-size: 0.9rem;
+	border-right:1px solid rgb(187,187,187) ;
+	line-height: 1.8rem;
+	text-align: right;
+	padding-right: 0.6rem;
+}
+#ninedetail p:first-child span{
+	color: rgb(233,51,85);
+	font-size: 1.3rem;
+}
+#ninedetail p:nth-child(2){
+	float: left;
+	width: 49%;
+	height: 0.9rem;
+	padding-left: 0.6rem;
+	font-size:0.6rem ;
+	line-height: 0.9rem;
+	color: rgb(176,176,176);
+	text-decoration: line-through;
+}
+
+#ninedetail p:nth-child(3){
+	float: left;
+	width: 49%;
+	padding-left: 0.6rem;
+	line-height: 0.9rem;
+	font-size: 0.6rem;
+	color: rgb(176,176,176);
+}
+#ninedetail p:last-child{
+	clear: both;
+	width: 100%;
+	padding: 0 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 0.6rem;	
+	text-align: center;
+}
+#ninedetail a{
+	border-radius:50% ;
+	width: 15%;
+	height: 2.2rem;
+	background: url(../../img/home.png) no-repeat left center;
+	background-size:100% 100% ;
+	display: block;
+	position: absolute;
+	top: 0.6rem;
+	right: 0.6rem;
+	opacity: 0.8;
+}
+#ninedetail a:last-child{
+	border-radius:50% ;
+	width: 15%;
+	height: 2.2rem;
+	background: url(../../img/car1.png) no-repeat left center;
+	background-size:100% 100% ;
+	display: block;
+	position: absolute;
+	top: 0.6rem;
+	right: 3.6rem;
+}
+#ninedetail #tab{
+	width: 100%;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 0.8rem;
+	/*background: red;*/
+	border-top:1px solid rgb(204,204,204) ;
+}
+#ninedetail #tab span{
+	float: left;
+	width: 33.33%;
+	height: 2.2rem;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	
+}
+#ninedetail #tab span:first-child{
+	color: rgb(170,170,170);
+	background: url(../../img/service.png) no-repeat center top;
+	line-height: 3.4rem;
+	font-size: 0.5rem;
+}
+#ninedetail #tab span:nth-child(2){
+	background: rgb(71,210,208);
+}
+#ninedetail #tab span:nth-child(3){
+	background: rgb(254,51,85);
+}

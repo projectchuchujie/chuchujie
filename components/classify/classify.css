@@ -1,0 +1,158 @@
+#indexul li:nth-child(3) a{
+	color: rgb(235,0,70);
+}
+#classifyhead{
+	width: 100%;
+	height: 2.2rem;
+	z-index: 2;
+	background: white;
+	padding-top: 0.3rem;
+	text-align: center;
+}
+#classifyhead span{
+	font-size: 0.6rem;
+	padding: 0.2rem 0.7rem;
+	border: 1px solid rgb(255,153,153);
+}
+#classifyhead #s1{
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+}
+#classifyhead #s2{
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+#classifyhead .hspan{
+	background: rgb(255,153,153);
+	color: white;
+}
+
+#classifyul{
+	width: 100%;
+}
+#classifyul li{
+	width: 50%;
+	height: 3.4rem;
+	float: left;
+	border: 1px solid rgb(221,221,221);
+	border-bottom:none;
+	border-right:none;
+}
+#classifyul li:last-child,#classifyul li:nth-last-child(2){
+	border-bottom: 1px solid rgb(221,221,221);
+}
+#classifyul li dl{
+	width: 100%;
+}
+#classifyul dt{
+	padding-right: 0.4rem;
+	width: 35%;
+	float: right;
+}
+#classifyul dt img{
+	width:100%;
+	height: 2.4rem;
+	margin-top: 0.4rem;
+}
+#classifyul dd{
+	padding: 0.4rem;
+	font-size: 0.6rem;
+	width: 65%;
+	float: left;
+}
+
+#classifyul dd p{
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+#classifyul dd p:last-child{
+	font-size: 0.6rem;
+	white-space: nowrap;
+	overflow: hien;
+	text-overflow: ellipsis;
+	color: rgb(217,217,217);
+}
+#classifyd1 p:first-child{
+	clear: both;
+	width: 100%;
+	height: 0.6rem;
+	background: rgb(247,247,247);
+	
+}
+#classifyd1 p:last-child{
+	clear: both;
+	height: 3rem;
+	background: url(../../img/tuijian.png) no-repeat left center;
+	background-size:100% 100% ;
+}
+#classifylist{
+	width: 100%;
+	height: 1.6rem;
+}
+#classifylist ul{
+	width: 100%;
+	height: 1.7rem;
+}
+#classifylist ul li{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+#classifylist ul li span{
+	color: rgb(131,131,123);
+	font-size: 0.7rem;
+	padding-bottom:0.1rem ;
+	border-bottom: 2px solid white;
+}
+#classifylist ul li .a1{
+	color: rgb(223,49,48);
+	border-bottom: 2px solid rgb(223,49,48);
+}
+#classifyul1{
+	width: 100%;
+}
+#classifyul1 li{
+	padding: 0.4rem;
+	width: 50%;
+	float: left;
+	border-bottom: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+}
+#classifyul1 li img{
+	width: 100%;
+}
+#classifyul1 li  p{
+	width: 100%;
+	line-height: 1rem;
+	font-size: 0.7rem;
+	
+}
+#classifyul1 li  p:nth-last-child(3){
+	height: 2rem;
+	overflow: hidden;
+	font-size: 0.6rem;
+	margin-top: 0.3rem;
+}
+#classifyul1 li  p:nth-last-child(2){
+	margin-top: 0.6rem;
+	font-size:0.6rem ;
+	color: rgb(233,49,48);
+}
+#classifyul1 li  p:nth-last-child(2) span{
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+#classifyul1 li  p:last-child{
+	font-size: 0.6rem;
+	color: rgb(176,176,176);
+}
+#classifyul1 li  p:last-child span:nth-last-child(2){
+	text-decoration: line-through;
+}
+#classifyul1 li  p:last-child span:last-child{
+	float: right;
+}
+h1{
+	clear: both;
+	height: 3rem;
+}

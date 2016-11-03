@@ -1,4 +1,7 @@
-#mine-box{width: 100%;height: 100%;position: relative;}
+#indexul li:nth-child(4) a{
+	color: rgb(235,0,70);
+}
+#mine-box{width: 100%;height: 100%;position: relative;z-index: 5;}
 #mine-box>div{position: absolute;}
 #mine-wrap1{width: 100%;height: 32.1rem;background: white;}
 .mine-bg{width: 100%;height: 7rem;background: url(../../img/icon_bg.png) no-repeat;background-size:100%;position: relative;}
