@@ -94,4 +94,5 @@ app.controller("classifyCtrl",["$scope","classifyService",function($scope,classi
 		textAlign: "center",
 		float: "left"
 	})
+	
 }])

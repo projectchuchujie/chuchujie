@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "chuchujie1",/*应用名称，程序桌面图标名称*/
@@ -199,5 +199,116 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"js/libs2/angular-css.min.js",
+					"components/car/car.js",
+					"js/me-lazyload.js",
+					"js/libs2/zepto.js",
+					"components/nine/nine.js",
+					"js/libs2/angular.min.js",
+					"app.js",
+					"components/classify/classify.js",
+					"js/libs2/jquery-2.1.1.js",
+					"js/libs2/angular-route.js",
+					"components/mine/mine.js",
+					"components/search/search.js",
+					"components/home/home.js"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"chuchujie/img/loki.jpg",
+				"json/ninewomen.json",
+				"chuchujie/json/classifyman.json",
+				"chuchujie/components/home/home.css",
+				"chuchujie/index.html",
+				"chuchujie/img/icon_order_dpj.png",
+				"components/search/search.html",
+				"json/closhone.json",
+				"chuchujie/js/libs2/angular.min.js",
+				"img/icon_bg.png",
+				"chuchujie/js/libs2/jquery-2.1.1.js",
+				"chuchujie/img/icon_yhq.png",
+				"img/icon_order_thh.png",
+				"json/classifyman.json",
+				"img/clock.png",
+				"chuchujie/img/user_bg.jpg",
+				"chuchujie/img/icon_order_dfk.png",
+				"components/mine/mine.html",
+				"img/home.png",
+				"chuchujie/img/icon_bg.png",
+				"chuchujie/manifest.json",
+				"components/search/search.css",
+				"chuchujie/img/icon_collect.png",
+				"img/icon_collect.png",
+				"chuchujie/components/home/home.js",
+				"chuchujie/img/icon_order_dsh.png",
+				"chuchujie/img/icon_order_thh.png",
+				"chuchujie/img/news.png",
+				"chuchujie/components/mine/mine.js",
+				"img/search.png",
+				"chuchujie/img/陈晓霜.jpg",
+				"json/homewomen.json",
+				"json/homeman.json",
+				"img/icon_yhq.png",
+				"chuchujie/js/libs2/zepto.js",
+				"img/icon_order_dfk.png",
+				"chuchujie/components/classify/classify.js",
+				"json/classifywomen.json",
+				"chuchujie/components/nine/nine.html",
+				"img/icon_order_dsh.png",
+				"components/home/home.css",
+				"chuchujie/img/icon_order_dfh.png",
+				"chuchujie/img/logo.png",
+				"chuchujie/json/homeman.json",
+				"img/car1.png",
+				"chuchujie/img/icon_msg.png",
+				"img/tuijian.png",
+				"img/icon_car.png",
+				"img/car.png",
+				"components/mine/mine.css",
+				"img/icon_msg.png",
+				"img/loki.jpg",
+				"components/nine/nine.html",
+				"chuchujie/components/mine/mine.html",
+				"chuchujie/json/classifywoemn.json",
+				"img/news.png",
+				"components/home/home.html",
+				"chuchujie/components/nine/nine.css",
+				"img/back.png",
+				"img/user_bg.jpg",
+				"img/icon_order_dpj.png",
+				"img/icon_order_dfh.png",
+				"chuchujie/app.js",
+				"chuchujie/components/home/home.html",
+				"img/search（1）.png",
+				"components/classify/classify.css",
+				"chuchujie/js/libs2/angular-route.js",
+				"components/car/car.css",
+				"chuchujie/components/mine/mine.css",
+				"chuchujie/js/libs2/angular-css.min.js",
+				"chuchujie/json/homewomen.json",
+				"chuchujie/json/nineman.json",
+				"json/testeone.json",
+				"components/classify/classify.html",
+				"components/car/car.html",
+				"chuchujie/img/icon_car.png",
+				"chuchujie/json/ninewomen.json",
+				"img/service.png",
+				"chuchujie/components/classify/classify.html",
+				"chuchujie/components/nine/nine.js",
+				"components/nine/nine.css",
+				"img/logo.png",
+				"json/nineman.json",
+				"chuchujie/components/classify/classify.css"
+			]
+		}
+	}
 }

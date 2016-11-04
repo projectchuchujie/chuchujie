@@ -7,12 +7,6 @@ app.config(['$routeProvider', function($routeProvider){
 		css:'components/mine/mine.css'
 	})
 }]);
-
-//app.service("mineService",["$http",function($http){
-//	this.get=function(){
-//		return $http.get('json/classifyman.json');
-//	}
-//}]);
 app.controller("mineCtrl",["$scope",function($scope){
 	var tel = document.querySelector('#tel');
 	tel.onfocus=function(){

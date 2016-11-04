@@ -1,0 +1,19 @@
+{
+	"index.html": {
+		"resources": [
+			"js/libs2/angular-css.min.js",
+			"components/car/car.js",
+			"js/me-lazyload.js",
+			"js/libs2/zepto.js",
+			"components/nine/nine.js",
+			"js/libs2/angular.min.js",
+			"app.js",
+			"components/classify/classify.js",
+			"js/libs2/jquery-2.1.1.js",
+			"js/libs2/angular-route.js",
+			"components/mine/mine.js",
+			"components/search/search.js",
+			"components/home/home.js"
+		]
+	}
+}
