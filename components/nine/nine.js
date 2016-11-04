@@ -46,4 +46,6 @@ app.controller("nineCtrl",["$scope","nineService",function($scope,nineService){
 		$("#ninedetail p").eq(2).text(e.saleCount+'个人购买');
 		$("#ninedetail p").eq(3).text(e.title);
 	}
+	
+	$scope.pageClass='page-nine'
 }])

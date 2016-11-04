@@ -39,4 +39,6 @@ app.controller("homeCtrl",["$scope","homeService",function($scope,homeService){
 	$scope.detail=function(path){
 		location.href=path;
 	}
+	$scope.pageClass='page-home';
+	
 }])
