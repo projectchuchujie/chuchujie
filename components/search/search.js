@@ -7,15 +7,8 @@ app.config(['$routeProvider', function($routeProvider){
 		css:'components/search/search.css'
 	})
 }]);
-
-//app.service("searchService",["$http",function($http){
-//	this.get=function(){
-//		return $http.get('json/homeman.json');
-//	}
-//}]);
-//
 app.controller("searchCtrl",["$scope",function($scope){
-		$scope.tiaozhuan=function(){
-			window.location.href="http://127.0.0.1:8020/chuchujie/index.html#/home";
-		}
+	$scope.tiaozhuan=function(){
+		window.location.href="http://127.0.0.1:8020/chuchujie/index.html#/home";
+	}
 }])
