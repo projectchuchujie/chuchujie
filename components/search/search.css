@@ -6,15 +6,9 @@
 #search-im2{width: 12%;height: 100%;float: left;margin-left: 3%;}
 #search-ip{width: 80%;height: 1.6rem;border: none;outline: medium;line-height: 80%;font-size: 80%;margin-top: 0.1rem;}
 #searchHead p{height: 100%;margin-top: 1%;float: right;margin-top: 2%;margin-right: 2%;}
-<<<<<<< HEAD
-#searchHead p a{color: rgb(163,163,163);font-size: 80%;}
-#searchBox #content1 span{color: rgb(189,189,189); font-size: 0.8rem;display: inline-block;margin-top: 3%;margin-bottom: 5%;}
-#searchBox #content1 ul li{float: left;border: 1px solid rgb(163,163,163);padding: 2%;font-size: 0.7rem;color: rgb(163,163,163);margin: 0 3% 3% 3%;}
-=======
 #searchHead p{color: rgb(163,163,163);font-size: 80%;}
 #searchBox #content1 span{color: rgb(189,189,189); font-size: 0.8rem;display: inline-block;margin-top: 3%;margin-bottom: 5%;}
 #searchBox #content1 ul li{float: left;border: 1px solid rgb(163,163,163);padding: 2%;font-size: 0.7rem;color: rgb(163,163,163);margin: 0 3% 3% 3%;}
 #searchBox #content2{width: 100%;}
 #searchBox #content2 ul li{padding:0.3rem 1rem;width: 100%;white-space: nowrap;overflow-x: hidden;text-overflow: ellipsis;}
 #searchBox #content2 ul li a{color:rgb(163,163,163);font-size: 0.6rem;}
->>>>>>> 1edf3d99de6ae310ada34953f03232055d63053d

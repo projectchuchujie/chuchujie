@@ -7,13 +7,6 @@ app.config(['$routeProvider', function($routeProvider){
 		css:'components/search/search.css'
 	})
 }]);
-<<<<<<< HEAD
-app.controller("searchCtrl",["$scope",function($scope){
-	$scope.tiaozhuan=function(){
-		window.location.href="http://127.0.0.1:8020/chuchujie/index.html#/home";
-	}
-=======
-
 app.service("searchService",["$http",function($http){
 	this.get=function(){
 		return $http.get('json/classifywomen.json');
@@ -52,7 +45,6 @@ app.controller("searchCtrl",["$scope","searchService",'myService',function($scop
 	$scope.clickItem=function(obj){
 		myService.set(obj);
 	}
->>>>>>> 1edf3d99de6ae310ada34953f03232055d63053d
 }])
 
 
