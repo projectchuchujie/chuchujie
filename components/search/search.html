@@ -1,13 +1,13 @@
 <div id="searchBox">
 	<div id="searchHead">
-		<img ng-src="img/back.png" id="search-im1" ng-click="tiaozhuan()"/>
+		<img src="img/back.png" id="search-im1" ng-click="tiaozhuan()"/>
 		<div id="search-all">
-			<img ng-src="img/search（1）.png" id="search-im2"/>
+			<img src="img/search（1）.png" id="search-im2"/>
 			<input type="text" name="search" id="search-ip" value="" placeholder="请输入商品名称">
 		</div>
-		<p><a href="#/home">搜索</a></p>
+		<p ng-click='search()'>搜索</p>
 	</div>
-	<div id="content1">
+	<div id="content1" ng-show='flag'>
 		<span>热门推荐</span>
 		<ul>
 			<li>11.11超值预售</li>
@@ -28,4 +28,12 @@
 			<li>洗发水</li>
 		</ul>
 	</div>
+<<<<<<< HEAD
+=======
+	<div id="content2" ng-hide='flag'>
+		<ul>
+			<li ng-repeat='x in searcharr.productList | filter:select'><a href="#/goods" ng-click="clickItem(x)">{{x.title}}</a></li>
+		</ul>
+	</div>
+>>>>>>> 1edf3d99de6ae310ada34953f03232055d63053d
 </div>

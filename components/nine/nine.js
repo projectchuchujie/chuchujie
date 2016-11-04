@@ -39,7 +39,6 @@ app.controller("nineCtrl",["$scope","nineService",function($scope,nineService){
 	$scope.flag=true;
 	$scope.nine=function(e){
 		$scope.flag=false;
-		console.log(e);
 		$('#ninedetail img').attr('src',e.imgUrl);
 		$("#ninedetail p").eq(0).html('￥<span>'+e.newPrice+'</span>');
 		$("#ninedetail p").eq(1).text('￥'+e.oldPrice);
